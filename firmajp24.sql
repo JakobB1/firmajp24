@@ -24,4 +24,4 @@ datumkraja datetime
 );
 
 ALTER TABLE sudjeluje ADD FOREIGN KEY (programer) REFERENCES programer(sifra);
-ALTER TABLE sudjeluje ADD FOREIGN KEY (projekt) REFERENCES programer(projekt);
+ALTER TABLE sudjeluje ADD FOREIGN KEY (projekt) REFERENCES projekt(sifra);
