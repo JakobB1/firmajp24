@@ -22,3 +22,5 @@ programer int,
 datumpocetka datetime,
 datumkraja datetime
 );
+
+ALTER TABLE sudjeluje ADD FOREIGN KEY (programer) REFERENCES programer(sifra);
