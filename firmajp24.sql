@@ -20,5 +20,5 @@ CREATE TABLE sudjeluje(
 projekt int,
 programer int,
 datumpocetka datetime,
-datum kraja datetime
+datumkraja datetime
 );
